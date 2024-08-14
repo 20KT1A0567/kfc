@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    width: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+.parent {
+    border: 1px black black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    left: 100vw;
+    right: 100vw;
+    bottom: 20px;
+    background-color: white;
+
+}
+
+.div2 {
+    border: 1px solid black;
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    left: 100vw;
+    right: 100vw;
+    bottom: 20px;
+    background-color: white;
+    height: 60px;
+}
+
+.div21 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.div22 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div3 {
+    border: 1px solid black;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+
+.div5 {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+
+}
+
+.div6 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.div7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.venkat1:hover {
+    background-color: red;
+    color: black;
+}
+
+.div8 {
+    display: flex;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.div9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+img {
+    border-radius: 25px;
+}
